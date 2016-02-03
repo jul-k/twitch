@@ -7,11 +7,9 @@
  * # MainCtrl
  * Controller of the twitchTvApp
  */
-angular.module('twitchTvApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+
+var app = angular.module('twitchTvApp');
+
+app.controller('MainCtrl', ['$scope', function ($scope) {
+
+}]);
