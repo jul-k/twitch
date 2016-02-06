@@ -50,10 +50,13 @@ h4 {
   border: 2px solid #000;
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 338px) {
     .icon {
         width: 100%;
         height: auto;
         margin-bottom: 15px;
+    }
+    .github-corner {
+        display: none;
     }
 }
